@@ -40,5 +40,8 @@ namespace SampleWebApp.Models
 
         [JsonProperty(PropertyName = "deliveryAttempts")]
         public SmsDeliveryAttempt[] DeliveryAttempts { get; set; }
+
+        [JsonProperty(PropertyName = "tag")]
+        public string Tag { get; set; }
     }
 }
